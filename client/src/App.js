@@ -320,7 +320,6 @@ class App extends Component {
             <Button
               variant="outlined"
               size="large"
-              onClick={this.searchArtist}
               href="https://setlisti.herokuapp.com/login"
               style={{
                 color: "black",
