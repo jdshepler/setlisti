@@ -7,7 +7,7 @@ const instance = axios.create({
   timeout: 1000,
   headers: {
     Accept: "application/json",
-    "x-api-key": "FsKLJ5csXlSKHt5H_rSLcCxNt3gg1oegOmKB",
+    "x-api-key": process.env.SETLISTFM_API_KEY,
   },
 });
 
