@@ -40,8 +40,8 @@ app.use("/setlist/", require("./apis/setlistAPI"));
 
 app.use(express.static(path.join(__dirname, "client/build")));
 
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname + "/client/build/index.html"));
+app.get("/authenticate", (req, res) => {
+  res.sendFile(path.join(__dirname + "/client/build/authenticate.html"));
 });
 
 app
@@ -117,7 +117,7 @@ app.get("/callback", function (req, res) {
 
         // we can also pass the token to the browser to make requests from there
         res.redirect(
-          "http://localhost:3000/#" +
+          "https://setlisti.herokuapp.com/#" +
             querystring.stringify({
               access_token: access_token,
               refresh_token: refresh_token,
@@ -160,6 +160,10 @@ app.get("/refresh_token", function (req, res) {
       });
     }
   });
+});
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname + "/client/build/index.html"));
 });
 
 const PORT = process.env.PORT || 5000;
