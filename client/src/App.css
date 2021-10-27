@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 .App {
   text-align: center;
@@ -11,7 +11,7 @@
 
 body {
   background-image: url("https://i.imgur.com/HcQ0Q5s.jpg");
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: 1920px 1080px;
   background-color: black;
 }
