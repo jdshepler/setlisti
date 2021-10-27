@@ -11,7 +11,7 @@ const request = require("request"); // "Request" library
 const cors = require("cors");
 const querystring = require("querystring");
 const cookieParser = require("cookie-parser");
-const path = require('path');
+const path = require("path");
 
 const client_id = "cbf6826acb7e42dfbfa1d57d3cadd001"; // Your client id
 const client_secret = "a76f624766794e84b2174b4990a035e3"; // Your secret
@@ -22,7 +22,6 @@ const redirect_uri = "https://setlisti.herokuapp.com/callback"; // Your redirect
  * @param  {number} length The length of the string
  * @return {string} The generated string
  */
-var generateRandomString = function (length) {
 var generateRandomString = function (length) {
   var text = "";
   var possible =
