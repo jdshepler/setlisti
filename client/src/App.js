@@ -87,7 +87,6 @@ class App extends Component {
     let query = songName + " " + artistName;
     return spotifyWebApi
       .searchTracks(query)
-
       .then((res) => {
         key++;
         this.state.artistSetURIs.push(res.tracks.items[0].uri);
@@ -314,7 +313,7 @@ class App extends Component {
                 fontFamily: "Quicksand",
               }}
             >
-              SPOTLISTIFY
+              SETLISTI
             </Typography>
           </Grid>
           <Grid item>
@@ -322,7 +321,7 @@ class App extends Component {
               variant="outlined"
               size="large"
               onClick={this.searchArtist}
-              href="http://localhost:5000/login"
+              href="https://setlisti.herokuapp.com/login"
               style={{
                 color: "black",
                 background:
