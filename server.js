@@ -22,6 +22,7 @@ const redirect_uri = "https://setlisti.herokuapp.com/callback"; // Your redirect
  * @return {string} The generated string
  */
 var generateRandomString = function (length) {
+var generateRandomString = function (length) {
   var text = "";
   var possible =
     "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
