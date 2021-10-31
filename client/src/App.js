@@ -286,6 +286,7 @@ class App extends Component {
               autoFocus
               defaultValue={this.state.artistName}
               onChange={this.onChangeArtist}
+              onKeyPress={this.searchArtist}
             />
           </Grid>
           <Grid item>
