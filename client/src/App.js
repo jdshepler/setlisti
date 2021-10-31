@@ -221,16 +221,13 @@ class App extends Component {
 
   render() {
     const PaperDiv = styled.div`
-      background: linear-gradient(
-        rgba(255, 255, 255, 0.4),
-        rgba(255, 255, 255, 0.2)
-      );
+      background: #262626;
       border-radius: 15px;
-      margin: 30px;
+      margin: 10%;
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 25px;
+      padding: 10%;
       border: 3px solid white;
       box-shadow: 13px 15px 29px 5px rgba(0, 0, 0, 0.25);
     `;
