@@ -223,11 +223,11 @@ class App extends Component {
     const PaperDiv = styled.div`
       background: #262626;
       border-radius: 15px;
-      margin: 10%;
+      margin-top: 100px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 10%;
+      padding: 25px;
       border: 3px solid white;
       box-shadow: 13px 15px 29px 5px rgba(0, 0, 0, 0.25);
     `;
