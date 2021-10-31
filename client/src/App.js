@@ -156,6 +156,9 @@ class App extends Component {
 
   searchArtist() {
     if (!this.state.artistName) {
+      this.setState({
+        playlistTracks: [],
+      });
       this.state.playlistTracks.push(
         <Alert severity="error" key={1} style={{ margin: "5px" }}>
           Error! No artist entered.
