@@ -235,7 +235,7 @@ class App extends Component {
 
   render() {
     const PaperDiv = styled.div`
-      background: #262626;
+      background: #000606;
       border-radius: 15px;
       margin-top: 100px;
       display: flex;
@@ -296,7 +296,7 @@ class App extends Component {
               style={{
                 color: "white",
                 border: "1px solid white",
-                background: "#262626",
+                background: "#000606",
                 borderRadius: 10,
                 fontFamily: "Quicksand",
               }}
@@ -334,7 +334,7 @@ class App extends Component {
               style={{
                 color: "white",
                 border: "1px solid white",
-                background: "#262626",
+                background: "#000606",
                 borderRadius: 10,
                 fontFamily: "Quicksand",
               }}
