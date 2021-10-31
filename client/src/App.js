@@ -97,7 +97,7 @@ class App extends Component {
               {" "}
               {songName} by {artistName}{" "}
             </b>{" "}
-            added to playlist
+            has been added to your playlist.
           </Alert>
         );
       })
