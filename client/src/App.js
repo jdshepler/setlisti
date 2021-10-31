@@ -325,7 +325,7 @@ class App extends Component {
                 fontFamily: "Quicksand",
               }}
             >
-              <h4>Login to Spotify</h4>
+              Login to Spotify
             </Button>
           </Grid>
         </Grid>
