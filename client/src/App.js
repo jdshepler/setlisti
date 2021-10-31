@@ -319,8 +319,9 @@ class App extends Component {
               href="https://setlisti.herokuapp.com/login"
               style={{
                 color: "white",
+                border: "1px solid white",
                 background: "#262626",
-                borderRadius: 5,
+                borderRadius: 10,
                 fontFamily: "Quicksand",
               }}
             >
