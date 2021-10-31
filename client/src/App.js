@@ -161,6 +161,7 @@ class App extends Component {
           Error! No artist entered.
         </Alert>
       );
+      return;
     }
     return axios
       .get(`/setlist/search/artist/${this.state.artistName}`)
