@@ -12,7 +12,7 @@
 body {
   background-image: url("https://i.imgur.com/HcQ0Q5s.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-color: #000606;
 }
 
