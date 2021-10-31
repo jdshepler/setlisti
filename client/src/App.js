@@ -155,6 +155,13 @@ class App extends Component {
   }
 
   searchArtist() {
+    if (!this.state.artistName) {
+      this.state.playlistTracks.push(
+        <Alert severity="error" key={1} style={{ margin: "5px" }}>
+          Error! No artist entered.
+        </Alert>
+      );
+    }
     return axios
       .get(`/setlist/search/artist/${this.state.artistName}`)
       .then((res) => {
@@ -266,7 +273,7 @@ class App extends Component {
                   root: classes.cssLabel,
                 },
               }}
-              id="outlined-number"
+              id="outlined-number fullWidth"
               label="Enter Artist's Name"
               variant="outlined"
               autoFocus
