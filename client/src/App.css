@@ -12,8 +12,8 @@
 body {
   background-image: url("https://i.imgur.com/HcQ0Q5s.jpg");
   background-repeat: no-repeat;
-  background-size: 1920px 1080px;
-  background-color: black;
+  background-size: auto;
+  background-color: #000606;
 }
 
 @media (prefers-reduced-motion: no-preference) {
