@@ -245,17 +245,6 @@ class App extends Component {
           spacing={2}
         >
           <Grid item>
-            <Typography
-              variant="h2"
-              style={{
-                color: "white",
-                fontFamily: "Quicksand",
-              }}
-            >
-              SETLISTI
-            </Typography>
-          </Grid>
-          <Grid item>
             <TextField
               className={clsx(classes.root, className)}
               inputProps={{
@@ -282,8 +271,7 @@ class App extends Component {
               style={{
                 color: "white",
                 border: "1px solid white",
-                background:
-                  "linear-gradient(rgba(225,196,138, .5), rgba(206,142,55, .6), rgba(114,38,35, .5), rgba(36,17,23, .6)",
+                background: "#262626",
                 borderRadius: 10,
                 fontFamily: "Quicksand",
               }}
@@ -302,17 +290,6 @@ class App extends Component {
           alignItems="center"
           spacing={2}
         >
-          <Grid item>
-            <Typography
-              variant="h2"
-              style={{
-                color: "white",
-                fontFamily: "Quicksand",
-              }}
-            >
-              SETLISTI
-            </Typography>
-          </Grid>
           <Grid item>
             <Button
               variant="outlined"
@@ -336,6 +313,17 @@ class App extends Component {
     return (
       <div className="App">
         <Grid container direction="column" justify="center" alignItems="center">
+          <Grid item>
+            <Typography
+              variant="h2"
+              style={{
+                color: "white",
+                fontFamily: "Quicksand",
+              }}
+            >
+              SETLISTI
+            </Typography>
+          </Grid>
           <Grid item>
             <PaperDiv>{home}</PaperDiv>
           </Grid>
