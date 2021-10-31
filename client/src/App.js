@@ -318,9 +318,8 @@ class App extends Component {
               size="large"
               href="https://setlisti.herokuapp.com/login"
               style={{
-                color: "black",
-                background:
-                  "linear-gradient(rgba(255,255,255, .8), rgba(255,255,255, .6)",
+                color: "white",
+                background: "#262626",
                 borderRadius: 5,
                 fontFamily: "Quicksand",
               }}
