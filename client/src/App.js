@@ -161,6 +161,9 @@ class App extends Component {
           Error! No artist entered.
         </Alert>
       );
+      this.setState({
+        artistName: "",
+      });
       return;
     }
     return axios
