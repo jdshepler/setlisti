@@ -92,11 +92,6 @@ class App extends Component {
         this.state.artistSetURIs.push(res.tracks.items[0].uri);
         this.state.playlistTracks.push(
           <Alert severity="success" key={key} style={{ margin: "5px" }}>
-            Your playlist has been created.
-          </Alert>
-        );
-        this.state.playlistTracks.push(
-          <Alert severity="success" key={key} style={{ margin: "5px" }}>
             Success!{" "}
             <b>
               {" "}
